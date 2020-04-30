@@ -1,0 +1,86 @@
+
+body{
+	background-color: #005cb3;
+}
+
+.navbar-dark {
+	background-color:#003566;
+	
+
+}
+.navbar li{
+	color: black;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px 10px;
+}	
+.container{
+	display: block;
+}
+.contactInfo{
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+	
+
+}
+.card{
+	background-color: #005c99;
+	width: 800px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.car_icon{
+	font-size: 47px;
+	background-color: #003566;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 25px;
+	transition: 0.3s linear;
+
+}
+.card:hover .car_icon{
+	background-color:  #33adff;
+	color:  #33adff;
+	transform: scale(1.6);
+}
+.card p{
+	margin-top: 20px;
+	font-weight: 150px;
+	letter-spacing: 3px;
+	max-height: 0;
+	opacity: 0;
+	transition: 0.3 linear;
+
+}
+.card:hover p{
+	max-height: 40px;
+	opacity: 1;
+	font-weight: 100px;
+
+}
+p{
+	font-weight: 200px;
+	font-family: arial black;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
